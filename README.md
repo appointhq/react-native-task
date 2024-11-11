@@ -6,6 +6,8 @@ We are working on creating dynamic forms and would like to recreate this interfa
 
 You are free to use any existing UI libraries.
 
+Once you have completed the task, please upload it to your GitHub account and share the repository link with us. Additionally, please include the APK for the Android version so we can conduct a test.
+
 ## Datasource
 Sample data will look like below:
 ```
@@ -25,6 +27,32 @@ Sample data will look like below:
         "name": "text",
         "type_ref": "text",
         "icon": "bi-type",
+        "display": true,
+        "column": {
+            "width": 120
+        },
+        "visibility": {
+            "table": true,
+            "form": true,
+            "board": true
+        }
+    },
+    {
+        "key": "1eefb041-2f8e-4438-bbe0-18cdc717ccd8",
+        "label": "Date field",
+        "type": "input",
+        "info_message": "",
+        "validation_message": "",
+        "addition_text": "",
+        "attrs": {
+            "required": false
+        },
+        "short_key": "",
+        "deleted": false,
+        "name": "date",
+        "type_ref": "date",
+        "icon": "bi-calendar-date",
+        "default_value": "+0d",
         "display": true,
         "column": {
             "width": 120
@@ -100,33 +128,7 @@ Sample data will look like below:
             "form": true,
             "board": true
         }
-    },
-    {
-        "key": "1eefb041-2f8e-4438-bbe0-18cdc717ccd8",
-        "label": "Date field",
-        "type": "input",
-        "info_message": "",
-        "validation_message": "",
-        "addition_text": "",
-        "attrs": {
-            "required": false
-        },
-        "short_key": "",
-        "deleted": false,
-        "name": "date",
-        "type_ref": "date",
-        "icon": "bi-calendar-date",
-        "default_value": "+0d",
-        "display": true,
-        "column": {
-            "width": 120
-        },
-        "visibility": {
-            "table": true,
-            "form": true,
-            "board": true
-        }
-    },
+    },    
     {
         "key": "6492fcb7-caca-43cf-ad6b-0c3e531524fc",
         "label": "Time",
@@ -238,6 +240,8 @@ Please store the form data as an object, either in memory or in native storage. 
 }
 ```
 ## UI
+
+A sample UI for the web version would look like this:
 
 ![screen_1](https://github.com/user-attachments/assets/ef4c74e6-0cf7-4e2a-843a-689d86860d67)
 
