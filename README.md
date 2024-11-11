@@ -238,3 +238,23 @@ Please store the form data as an object, either in memory or in native storage. 
 }
 ```
 ## UI
+
+![screen_1](https://github.com/user-attachments/assets/ef4c74e6-0cf7-4e2a-843a-689d86860d67)
+
+![screen_2](https://github.com/user-attachments/assets/dc26cf9c-2b61-47be-9638-c364a40d5c09)
+
+![screen_3](https://github.com/user-attachments/assets/9d197c56-42bb-4c5c-9ef5-5ed64e936b4a)
+
+![screen_4](https://github.com/user-attachments/assets/3d012bc6-7351-4ef9-a5be-3085bf2d6fc2)
+
+![screen_5](https://github.com/user-attachments/assets/54d829ce-60d3-41dc-95f8-da649ac97201)
+
+![screen_6](https://github.com/user-attachments/assets/cab53d85-c0ee-49da-83ce-6c8c75cfc72f)
+
+
+
+
+
+
+
+
