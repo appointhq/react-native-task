@@ -8,6 +8,31 @@ You are free to use any existing UI libraries.
 
 Once you have completed the task, please upload it to your GitHub account and share the repository link with us. Additionally, please include the APK for the Android version so we can conduct a test.
 
+## Task
+
+- Build a form based on the sample data source, and save the form data either in memory or using native storage.
+- Create a list to display records based on the saved form data.
+- Ideally, include essential tests for both the form and the list components.
+
+## Saving
+Form data can be saved either in memory or using native storage.
+
+Please store the form data as an object, either in memory or in native storage. An example format would be:
+
+```
+{
+    "id": "unique_id",
+    "created_at": "date_time",
+     “7d5a2af7-51c9-4915-a362-82dad827dff7“:”Record 1”,
+    "1eefb041-2f8e-4438-bbe0-18cdc717ccd8":"2021-10-10",
+    ...
+}
+```
+
+- id: A unique identifier for the form data.
+- created_at: The date and time when the form data was created.
+- key = User input. The key corresponds to the same key in the sample data source.
+
 ## Datasource
 Sample data will look like below:
 ```
@@ -225,20 +250,6 @@ Sample data will look like below:
 ]
 ```
 
-## Saving
-Form data can be saved either in memory or using native storage.
-
-Please store the form data as an object, either in memory or in native storage. An example format would be:
-
-```
-{
-    "id": "unique_id",
-    "created_at": "date_time",
-     “7d5a2af7-51c9-4915-a362-82dad827dff7“:”Record 1”,
-    "1eefb041-2f8e-4438-bbe0-18cdc717ccd8":"2021-10-10",
-    ...
-}
-```
 ## UI
 
 A sample UI for the web version would look like this:
